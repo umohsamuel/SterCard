@@ -324,7 +324,7 @@ body {
     /* display: none; */
     overflow: hidden;
     /* height: 16vmax; */
-    /* animation: none; */
+    animation: none;
   }
 }
 
