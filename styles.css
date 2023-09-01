@@ -6,6 +6,7 @@
 
   --blob-color-1: rgb(var(--blue-rgb));
   --blob-color-2: dodgerblue;
+  margin: auto auto;
 }
 
 * {
@@ -31,6 +32,18 @@ body {
   overflow: hidden;
   position: relative;
   z-index: 10;
+
+  @media screen and (max-width: 425px) {
+    width: 320px;
+  }
+  @media screen and (min-width: 698px) {
+    width: 320px;
+    overflow: auto;
+  }
+  @media screen and (max-width: 698px) {
+    /* width: 320px; */
+    overflow: hidden;
+  }
 }
 
 .screen:after,
@@ -294,6 +307,11 @@ body {
   );
   animation: rotate 20s infinite;
   opacity: 0.5;
+
+  /* @media screen and (max-width: 767px) { */
+  /* display: none; */
+  /* overflow: hidden; */
+  /* } */
 }
 
 #blur {
@@ -302,6 +320,11 @@ body {
   position: absolute;
   z-index: 2;
   backdrop-filter: blur(12vmax);
+
+  /* @media screen and (max-width: 767px) { */
+  /* display: none; */
+  /* overflow: hidden; */
+  /* } */
 }
 
 /* -- Links -- */
