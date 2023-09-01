@@ -142,6 +142,7 @@ body {
 }
 
 .screen > .screen-image {
+  /* unsplash image  */
   background-image: url("https://images.unsplash.com/photo-1682687220208-22d7a2543e88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2575&q=80");
   height: 100%;
   width: 100%;
@@ -305,7 +306,7 @@ body {
 
 /* -- Links -- */
 
-#links {
+/* #links {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -314,4 +315,4 @@ body {
   left: 0px;
   z-index: 10;
   padding: 1rem;
-}
+} */
